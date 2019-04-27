@@ -8,7 +8,7 @@
 		"cert": "/path/to/your/ssl.crt"	
 	},
         "readline": {
-        	"use": true,
+        	"use": false,
 		"prompt": "[--:--:--][CONSOLE] "
         }
 }
