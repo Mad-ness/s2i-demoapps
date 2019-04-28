@@ -4,7 +4,7 @@ In this hands on work you will need to run a NodeJS application. This applicatio
 
 ## Prerequisities
 
-* OpenShift cluster has to have access to this repository `https://github.com/cstodor/QuizApp`.
+* OpenShift cluster has to have access to this repository __https://github.com/cstodor/QuizApp__.
 
 
 ## Creating a project
