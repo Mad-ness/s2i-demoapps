@@ -235,3 +235,6 @@ $ oc delete all --all
 $ oc delete project chat
 ```
 
+## Authors
+
+- Dmitrii Mostovshchikov <Dmitrii.Mostovshchikov@li9.com>, <dmadm2008@gmail.com>
