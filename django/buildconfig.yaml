@@ -1,0 +1,24 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: django-web
+spec:
+  output:
+    to:
+      kind: "DockerImage"
+      name: "docker-registry.default.svc:5000/template-demo/django-web:v1"
+      # namespace: "template-demo"
+  runPolicy: SerialLatestOnly
+  source:
+    type: Git
+    git: 
+      uri: "https://github.com/Mad-ness/s2i-demoapps.git"
+    contextDir: "django/"
+  strategy:
+    sourceStrategy:
+      from: 
+        kind: "ImageStreamTag"
+        name: "python:3.6"
+        namespace: "openshift"
+    type: Source
+
