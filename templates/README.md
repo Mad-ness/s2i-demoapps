@@ -48,7 +48,12 @@ Create the needed instances in the mentioned order and make sure everything is r
 * Passwords, logins, hostnames for RabbitMQ, PostgreSQL, and MemCached mentioned in a few places. Ideally it should be mentioned only one time.
 * Scalability have not been tested and it should not work out of box.
 * Username and Password for AWX's admin user is hardcoded
-* 
+* PostgreSQL database does not have a permanent storage
+* Limits cannot be adjusted without modifying the resources in the template
 
+
+## Authors
+
+* Dmitrii Mostovshchikov <Dmitrii.Mostovshchikov@Li9.com>
 
 
